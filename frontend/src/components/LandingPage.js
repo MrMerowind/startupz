@@ -3,6 +3,7 @@ import Header from './Header'
 import WeCreate from './WeCreate'
 import WhoWeAre from './WhoWeAre'
 import WeLoveSolving from './WeLoveSolving'
+import CoreValues from './CoreValues'
 
 export default function LandingPage() {
   return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
       <WeCreate />
       <WhoWeAre />
       <WeLoveSolving />
+      <CoreValues />
     </>
   )
 }

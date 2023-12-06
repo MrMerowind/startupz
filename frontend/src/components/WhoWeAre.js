@@ -20,9 +20,9 @@ export default function WhoWeAre() {
             We value working with talented people that understand the possibilities of today.
         </h4>
         <div className='whoWeAreCountingBoxes'>
-            <CountingWithText number={"01"} text={"We develop innovative products, systems and services"}/>
-            <CountingWithText number={"02"} text={"Next we build teams to scale them into"} text2={"companies"}/>
-            <CountingWithText number={"03"} text={"Each startup solving one problem"} text2={"at a time"}/>
+            <CountingWithText number={"01"} text={"We develop innovative"} text2={"products, systems and"} text3={"services"}/>
+            <CountingWithText number={"02"} text={"Next we build teams to"} text2={"scale them into"} text3={"companies"}/>
+            <CountingWithText number={"03"} text={"Each startup solving"} text2={"one problem"} text3={"at a time"}/>
         </div>
     </div>
   )
