@@ -3,7 +3,7 @@ $complementary-green: #46B8C8;
 $primary-orange: #FB8958;
 $text-color: #3D4F5C;
 
-$default-font-name: 'Circular Std';
+$default-font-name: 'Circular Std Medium';
 $default-font-size: 18px;
 $outilned-font-size: 14px;
 
@@ -37,6 +37,17 @@ h2 {
 }
 
 h3 {
+  color: $primary-orange;
+  text-align: center;
+  font-family: $default-font-name;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.4px;
+}
+
+h4 {
   color: $text-color;
   font-family: $default-font-name;
   font-size: 30px;
@@ -46,7 +57,7 @@ h3 {
   letter-spacing: -0.3px;
 }
 
-h4 {
+h5 {
   color: $primary-orange;
   font-family: $default-font-name;
   font-size: 24px;
@@ -57,6 +68,16 @@ h4 {
   margin-top: 25px;
 }
 
+h6 {
+  color: $bg-color;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+}
+
 
 @import './Header.scss';
-@import './contentbox.scss';
+@import './Contentbox.scss';
+@import './Messager.scss';

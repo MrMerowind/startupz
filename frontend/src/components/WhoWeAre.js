@@ -5,7 +5,7 @@ import CountingWithText from './CountingWithText';
 export default function WhoWeAre() {
 
     const whoWeAreMarginStyle = ({
-        marginTop: '239px'
+        marginTop: '372px'
     });
 
   return (

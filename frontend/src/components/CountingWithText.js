@@ -8,15 +8,15 @@ export default function CountingWithText({number, text, text2 = null, text3 = nu
 
     return (
         <div className='whoWeAreCountingBox'>
-            <h4 className='whoWeAreCountingBoxNumber'>{number}</h4>
+            <h5 className='whoWeAreCountingBoxNumber'>{number}</h5>
             <img src='svg/linebreaker.svg' alt='line break'/>
-            <h3>
+            <h4>
                 {text}
                 {text2 ? <br /> : null}
                 {text2 ? text2 : null}
                 {text3 ? <br /> : null}
                 {text3 ? text3 : null}
-            </h3>
+            </h4>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import WeCreate from './WeCreate'
 import WhoWeAre from './WhoWeAre'
+import WeLoveSolving from './WeLoveSolving'
 
 export default function LandingPage() {
   return (
@@ -9,6 +10,7 @@ export default function LandingPage() {
       <Header />
       <WeCreate />
       <WhoWeAre />
+      <WeLoveSolving />
     </>
   )
 }
