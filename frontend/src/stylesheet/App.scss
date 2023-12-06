@@ -1,5 +1,6 @@
 $bg-color: #FFF;
 $complementary-green: #46B8C8;
+$primary-orange: #FB8958;
 $text-color: #3D4F5C;
 
 $default-font-name: 'Circular Std';
@@ -13,56 +14,28 @@ $default-margin: 120px;
   width: 100%;
 }
 
-.logo {
-  width: 199.486px;
-  height: 47.848px;
-}
-
-.header {
-    font-size: $default-font-size;
-    height: $default-font-size;
-    //width: calc(100% - $default-margin * 2);
-    margin-left: $default-margin;
-    margin-right: $default-margin;
-    margin-top: 16px;
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.headerButtons {
-  margin-left: auto;
-  margin-right: 0;
-  width: 20%;
-  display: inline-flex;
-  justify-content: space-between;
-}
-
-.headerButton {
+h1 {
   color: $text-color;
   font-family: $default-font-name;
-  font-size: $default-font-size;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px; /* 100% */
+  letter-spacing: -1.7px;
+  margin-top: 25px;
+}
+
+h4 {
+  color: $primary-orange;
+  font-family: $default-font-name;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 100% */
-  letter-spacing: -0.18px;
-  text-decoration: none;
-  margin: auto;
-
-
-  &Outlined {
-      color: $complementary-green;
-      text-align: center;
-      font-family: $default-font-name;
-      font-size: $outilned-font-size;
-      font-style: normal;
-      font-weight: 700;
-      border: 1px solid $complementary-green;
-      border-radius: 31px;
-      border-color: $complementary-green;
-      margin-top: auto;
-      margin-bottom: auto;
-      padding: 15.5px;
-      text-decoration: none;
-  }
+  line-height: 30px; /* 125% */
+  letter-spacing: -0.24px;
+  margin-top: 25px;
 }
+
+
+@import './Header.scss';
+@import './contentbox.scss';

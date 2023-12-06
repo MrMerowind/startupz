@@ -1,0 +1,29 @@
+.contentbox {
+    margin-left: $default-margin;
+    margin-right: $default-margin;
+    margin-top: 145.44px;
+
+    .imageWeCreate {
+        width: 704.816px;
+        height: 507px;
+        position: absolute;
+        right: 0;
+    }
+}
+
+.contentbox a {
+    display: inline-block;
+    color: $bg-color;
+    font-family: $default-font-name;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+    letter-spacing: -0.18px;
+    background-color: $complementary-green;
+    height: 45px;
+    border-radius: 32.5px;
+    text-decoration: none;
+    padding: 13.5px;
+    margin-top: 25px;
+}
