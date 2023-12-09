@@ -3,13 +3,20 @@
     margin-right: $default-margin;
     margin-top: 145.44px;
 
-    .imageWeCreate {
-        width: 704.816px;
-        height: 507px;
+    .imageOnRight {
         position: absolute;
         right: 0;
         background-color: lightgray 50%;
         background-repeat: no-repeat;
+        justify-self: center;
+    }
+
+    .imageOnLeft {
+        position: absolute;
+        left: 0;
+        background-color: lightgray 50%;
+        background-repeat: no-repeat;
+        justify-self: center;
     }
 
     .imageQuestionmark {
@@ -76,6 +83,11 @@
     text-decoration: none;
     padding: 13.5px;
     margin-top: 25px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 100% */
 }
 
 .spacebetweenBlock {
