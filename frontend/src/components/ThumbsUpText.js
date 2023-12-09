@@ -7,7 +7,6 @@ export default function ThumbsUpText({text, text2= null, text3 = null}) {
         display: 'block',
         position: 'relative',
         margin: 'auto',
-        marginTop: '313px',
     });
 
     const textmargin = ({

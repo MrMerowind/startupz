@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div id='footer' className='contentbox'>
-        <div className='d-flex justify-content-between' style={{marginBottom: '123px'}}>
+        <div className='d-flex justify-content-between'>
             <div className='d-flex flex-column'>
                 <img className='logo' src="svg/logo.svg" alt="Logo"/>
                 <p className='footerTextGray' style={{marginTop: 'auto'}}>© 2020 Startupz.<br />All rights reserved.</p>

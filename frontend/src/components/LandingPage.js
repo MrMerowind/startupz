@@ -12,17 +12,17 @@ import Footer from './Footer'
 export default function LandingPage() {
   return (
     <>
-      <Header />
-      <WeCreate />
-      <WhoWeAre />
-      <WeLoveSolving />
-      <CoreValues />
+      <nav><Header /></nav>
+      <section className='shadowWrapper'><WeCreate /></section>
+      <section className='shadowWrapper shadowWrapperColor'><WhoWeAre /></section>
+      <section className='shadowWrapper'><WeLoveSolving /></section>
+      <section className='shadowWrapper shadowWrapperColor'><CoreValues /></section>
 
-      <Info />
+      <section className='shadowWrapper'><Info /></section>
 
-      <WeAreHiring />
-      <Contact />
-      <Footer />
+      <section className='shadowWrapper shadowWrapperColor'><WeAreHiring /></section>
+      <section><Contact /></section>
+      <footer></footer><Footer />
     </>
   )
 }

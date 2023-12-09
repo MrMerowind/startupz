@@ -4,12 +4,9 @@ import CountingWithText from './CountingWithText';
 
 export default function WhoWeAre() {
 
-    const whoWeAreMarginStyle = ({
-        marginTop: '372px'
-    });
 
   return (
-    <div className='contentbox' style={whoWeAreMarginStyle}>
+    <div className='contentbox'>
         <div className='spacebetweenBlock'>
             <h2  >Who we are</h2>
             <img className='imageQuestionmark' src='/img/questionmark.png' alt='questionmark' />

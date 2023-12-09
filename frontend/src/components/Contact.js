@@ -5,7 +5,6 @@ export default function Contact() {
 
     const customPaddingStyle = ({
         paddingTop: '60px',
-        marginTop: '165px'
     });
 
     const wrapperRocketBgStyle = ({
@@ -19,9 +18,10 @@ export default function Contact() {
         mixBlendMode: 'soft-light',
         opacity: '0.5',
         width: '50%',
-        height: '150%',
+        height: '120%',
         overflow: 'hidden',
-        marginBottom: '-800px',
+        marginBottom: '-200px',
+        marginRight: '250px'
     });
 
   return (
