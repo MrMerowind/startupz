@@ -6,6 +6,8 @@ import WeLoveSolving from './WeLoveSolving'
 import CoreValues from './CoreValues'
 import Info from './Info'
 import WeAreHiring from './WeAreHiring'
+import Contact from './Contact'
+import Footer from './Footer'
 
 export default function LandingPage() {
   return (
@@ -19,6 +21,8 @@ export default function LandingPage() {
       <Info />
 
       <WeAreHiring />
+      <Contact />
+      <Footer />
     </>
   )
 }

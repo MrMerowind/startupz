@@ -1,0 +1,43 @@
+.footerTextGray {
+    color: #939393;
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.footerTextGrayBold {
+    color: #3D4F5C;
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+}
+
+.footerTextGreen {
+    color: $complementary-green;
+    font-family: 'Circular Std';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+#footer a {
+    display: inline-block;
+    color: $complementary-green;
+    font-family: 'Circular Std Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 194.444% */
+    text-decoration: none;
+}
+
+.imgSizing {
+    width: 23px;
+    height: 23px;
+    margin-top: 15px;
+}

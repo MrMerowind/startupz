@@ -2,6 +2,7 @@ $bg-color: #FFF;
 $complementary-green: #46B8C8;
 $primary-orange: #FB8958;
 $text-color: #3D4F5C;
+$secondary-yellow: #FFC351;
 
 $default-font-name: 'Circular Std Medium';
 $default-font-size: 18px;
@@ -87,3 +88,4 @@ h6 {
 @import './Header.scss';
 @import './Contentbox.scss';
 @import './Messager.scss';
+@import './Footer.scss';
