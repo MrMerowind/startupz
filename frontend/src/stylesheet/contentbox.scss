@@ -90,16 +90,6 @@
     line-height: 18px; /* 100% */
 }
 
-.contentbox:has(#footer) a {
-    display: inline-block;
-    color: $complementary-green;
-    font-family: 'Circular Std Medium';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px; /* 194.444% */
-}
-
 .spacebetweenBlock {
     display: flex;
     justify-content: space-between;

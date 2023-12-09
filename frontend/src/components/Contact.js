@@ -11,19 +11,21 @@ export default function Contact() {
     const wrapperRocketBgStyle = ({
         position: 'absolute',
         backgroundImage: 'url(./svg/logoRocket.svg)',
-        backgroundSize: '200%',
+        backgroundSize: '500%',
         backgroundRepeat: 'no-repeat',
-        transform: 'translateX(600px) translateY(600px) rotate(35deg)',
+        transform: 'translateY(100px) rotate(30deg)',
         right: '0px',
         marginTop: '0',
-        width: '100%',
-        height: '100%',
-        mixBlendMode: 'difference',
-        opacity: '0.5'
+        mixBlendMode: 'soft-light',
+        opacity: '0.5',
+        width: '50%',
+        height: '150%',
+        overflow: 'hidden',
+        marginBottom: '-800px',
     });
 
   return (
-    <div className='contactWrapper'>
+    <div className='contactWrapper' >
         <div style={wrapperRocketBgStyle}></div>
         <div className='contentbox' style={{paddingBottom: '70px'}}>
             <div className='text-left' style={customPaddingStyle}>
