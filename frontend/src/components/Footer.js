@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div id='footer' className='contentbox'>
-        <div className='d-flex justify-content-between'>
+        <div className='d-flex justify-content-between' style={{height: '200px'}}>
             <div className='d-flex flex-column'>
                 <img className='logo' src="svg/logo.svg" alt="Logo"/>
                 <p className='footerTextGray' style={{marginTop: 'auto'}}>© 2020 Startupz.<br />All rights reserved.</p>
@@ -11,11 +11,10 @@ export default function Footer() {
             <div className='d-flex flex-column'>
                 <p className='footerTextGrayBold'>Companies</p>
                 <p className='footerTextGreen'>
-                    <a href='#'>Tolq</a><br />
-                    <a href='#'>LegalSite</a><br />
-                    <a href='#'>Codekeeper</a><br />
-                    <a href='#contact'>Feedback</a><br />
-                    <a href='#'>Labs</a>
+                    <a className='buttonSimpleLink' href='#tolq'>Tolq</a><br />
+                    <a className='buttonSimpleLink' href='#legalsite'>LegalSite</a><br />
+                    <a className='buttonSimpleLink' href='#codekeeper'>Codekeeper</a><br />
+                    <a className='buttonSimpleLink' href='#contact'>Feedback Labs</a><br />
                 </p>
             </div>
             <div className='d-flex flex-column'>
@@ -26,14 +25,14 @@ export default function Footer() {
                     2595 AM The Hague<br />
                     The Netherlands
                 </p>
-                <a href='#contact'>Send us an email</a>
+                <a  className='buttonSimpleLink' href='#contact'>Send us an email</a>
                 
             </div>
             <div className='d-flex flex-column'>
                 <p className='footerTextGrayBold'>Follow us</p>
-                <img className='imgSizing' src='/svg/twitter.svg' />
-                <img className='imgSizing' src='/svg/linkedin.svg' />
-                <img className='imgSizing' src='/svg/instagram.svg' />
+                <img className='imgSizing' src='/svg/twitter.svg' alt='twitter icon'/>
+                <img className='imgSizing' src='/svg/linkedin.svg' alt='linkedin icon'/>
+                <img className='imgSizing' src='/svg/instagram.svg' alt='instagram icon'/>
             </div>
         </div>
 

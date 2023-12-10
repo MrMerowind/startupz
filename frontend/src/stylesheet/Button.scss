@@ -1,0 +1,42 @@
+a.button{
+    color: $bg-color;
+    text-align: center;
+    font-family: $default-font-name;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 100% */
+    border-radius: 32.5px;
+    border: 1px solid $complementary-green;
+    background-color: $complementary-green;
+    z-index: 300;
+}
+
+a.buttonOutlined{
+    color: $complementary-green;
+    text-align: center;
+    font-family: $default-font-name;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 100% */
+    border-radius: 32.5px;
+    border: 1px solid $complementary-green;
+    background-color: $bg-color;
+    z-index: 300;
+    margin: 0;
+    padding: 15.5px;
+}
+
+a.buttonSimpleLink {
+    color: $complementary-green;
+    font-family: $default-font-name;
+    font-size: $default-font-size;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+    letter-spacing: -0.18px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}

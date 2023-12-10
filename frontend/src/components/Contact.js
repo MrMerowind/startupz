@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <div className='contactWrapper' >
         <div style={wrapperRocketBgStyle}></div>
-        <div className='contentbox' style={{paddingBottom: '70px'}}>
+        <div className='contentbox' style={{paddingBottom: '70px', marginTop: 0, pointerEvents: 'none'}}>
             <div className='text-left' style={customPaddingStyle}>
                 <h2 className='text-white'>
                     Are you ready<br />

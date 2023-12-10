@@ -5,7 +5,8 @@ export default function WeAreHiring() {
 
 
     const imgTranslateStyle = (height) => ({
-        transform: 'translateY(-'+ (height) + 'px)'
+        transform: 'translateY(-'+ (height) + 'px)',
+        pointerEvents: 'none'
     });
 
   return (
@@ -19,7 +20,7 @@ export default function WeAreHiring() {
                 to join and help build our startups.<br />
                 Check out our current openings
             </h4>
-            <a href='#'><span>See current openings</span></a>
+            <a className='button' href='#openings'>See current openings</a>
         </div>
     </div>
   )

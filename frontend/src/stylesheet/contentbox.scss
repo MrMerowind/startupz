@@ -30,6 +30,7 @@
         display: inline-block;
         position: absolute;
         top: calc(50% - 33px);
+        pointer-events: none;
     }
 
     .imageThumbRight {
@@ -70,16 +71,16 @@
     }
 }
 
-.contentbox a :not(#footer) {
+a {
     display: inline-block;
-    color: $bg-color;
+    //color: $bg-color;
     font-family: $default-font-name;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 18px; /* 100% */
     letter-spacing: -0.18px;
-    background-color: $complementary-green;
+    //background-color: $complementary-green;
     height: 45px;
     border-radius: 32.5px;
     text-decoration: none;
