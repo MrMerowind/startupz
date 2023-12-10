@@ -76,7 +76,23 @@
 
 @media screen and (max-width: 1000px)  {
     .messager-container {
-        transform: translateY(-250px);
+        transform: translateY(50px);
+    }
+
+}
+
+@media screen and (max-width: 500px)  {
+    .messager-container {
+        display: block;
+        position: relative;
+        transform: none;
+    }
+
+}
+
+@media screen and (max-width: 400px)  {
+    .messager-container {
+        display: none;
     }
 
 }
