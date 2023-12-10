@@ -10,7 +10,7 @@ export default function WeAreHiring() {
     });
 
   return (
-    <div className='contentbox'>
+    <div className='contentbox' id='hiring'>
             <img width='1004px' height='722px' style={imgTranslateStyle(722 / 3)} className='imageOnLeft' src='/img/flyingleft.png' alt='Person flying' />
             <img width='1062px' height='764px' style={imgTranslateStyle(764 / 3)} className='imageOnRight' src='/img/flyingright.png' alt='Person looking through a telescope' />
         <div className='text-center'>
