@@ -9,7 +9,7 @@ a.button{
     border-radius: 32.5px;
     border: 1px solid $complementary-green;
     background-color: $complementary-green;
-    z-index: 300;
+    z-index: 2000;
 }
 
 a.buttonOutlined{
@@ -23,7 +23,7 @@ a.buttonOutlined{
     border-radius: 32.5px;
     border: 1px solid $complementary-green;
     background-color: $bg-color;
-    z-index: 300;
+    z-index: 2000;
     margin: 0;
     padding: 15.5px;
 }
@@ -39,4 +39,5 @@ a.buttonSimpleLink {
     text-decoration: none;
     margin: 0;
     padding: 0;
+    z-index: 2000;
 }

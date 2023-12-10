@@ -24,7 +24,7 @@ export default function ContactForm() {
         minHeight: '54px',
         padding: '16px 18px 16px 18px',
         fontFamily: "Roboto",
-        zIndex: 200,
+        zIndex: 2000,
     });
 
     const formInputSubmitStyle = ({
@@ -38,7 +38,7 @@ export default function ContactForm() {
         fontSize: '18px',
         fontWeight: '500',
         lineHeight: '18px',
-        zIndex: 200,
+        zIndex: 2000,
     });
 
   return (
