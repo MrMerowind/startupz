@@ -19,7 +19,6 @@
     padding-bottom: 13.56px;
     padding-left: 18px;
     padding-right: 18px;
-    height: 55.64029px;
     border-radius: 55.64029px 55.64029px 0px 55.64029px;
 }
 
@@ -93,6 +92,9 @@
 @media screen and (max-width: 400px)  {
     .messager-dude, .messager-dude-wrapper1, .messager-dude-wrapper2 {
         display: none;
+    }
+    .messager-container {
+        width: 100%;
     }
 
 }
