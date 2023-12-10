@@ -15,7 +15,7 @@ export default function Slide({color, text, imagePath, altText, href, subtext, s
             {subtext5? <br /> : null}
             {subtext5? subtext5 : null}
         </p>
-        <center><img width='583.141px' height='380.324px' src={imagePath} className='slideImage' alt={altText}/></center>
+        <center><img src={imagePath} className='slideImage' alt={altText}/></center>
         <center><a href={href} className='buttonOutlined'>More</a></center>
     </div>
   )

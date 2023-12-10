@@ -31,10 +31,20 @@
 .slideImage {
     border-radius: 49px;
     background-color: lightgray 50%;
+    width: 100%;
+    height: auto;
 }
 
 .slideGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px)  {
+    .slideGrid {
+        grid-template-columns: 1fr;
+    }
+
 }

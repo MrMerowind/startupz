@@ -10,7 +10,7 @@ export default function ContactForm() {
         paddingRight: '42px',
         paddingTop: '72px',
         paddingBottom: '40px',
-        width: '512px',
+        maxWidth: '512px',
         display: 'flex',
         flexDirection: 'column'
     });

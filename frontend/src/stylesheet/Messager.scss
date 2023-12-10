@@ -72,3 +72,11 @@
     top: 0;
     filter: none;
 }
+
+
+@media screen and (max-width: 1000px)  {
+    .messager-container {
+        transform: translateY(-250px);
+    }
+
+}

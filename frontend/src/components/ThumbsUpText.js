@@ -3,7 +3,6 @@ import React from 'react'
 export default function ThumbsUpText({text, text2= null, text3 = null}) {
 
     const thumbsWrapper = ({
-        width: '70%',
         display: 'block',
         position: 'relative',
         margin: 'auto',

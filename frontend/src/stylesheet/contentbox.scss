@@ -27,7 +27,7 @@
     }
 
     .imageThumbLeft, .imageThumbRight {
-        display: inline-block;
+        display: block;
         position: absolute;
         top: calc(50% - 33px);
         pointer-events: none;
@@ -109,4 +109,33 @@ a {
 .shadowWrapperColor{
     background-color: #FBFAFA;
     width: 100%;
+}
+
+@media screen and (max-width: 1500px)  {
+    .imageOnRight, .imageOnLeft {
+        display: none;
+    }
+}
+
+.imageThumbLeft, .imageThumbRight {
+    visibility: visible;
+}
+
+@media screen and (max-width: 1300px)  {
+    .imageThumbLeft, .imageThumbRight {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1000px)  {
+    .rocketImage {
+        display: none;
+    }
+    .whoWeAreCountingBoxes {
+        flex-wrap: wrap;
+    }
+    .contentbox {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
