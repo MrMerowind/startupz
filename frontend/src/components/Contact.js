@@ -21,13 +21,14 @@ export default function Contact() {
         height: '120%',
         overflow: 'hidden',
         marginBottom: '-200px',
-        marginRight: '250px'
+        marginRight: '250px',
+        pointerEvents: 'none'
     });
 
   return (
     <div className='contactWrapper'id='contact' >
         <div className='rocketImage' style={wrapperRocketBgStyle}></div>
-        <div className='contentbox' style={{paddingBottom: '70px', marginTop: 0, pointerEvents: 'none'}}>
+        <div className='contentbox' style={{paddingBottom: '70px', marginTop: 0}}>
             <div className='text-left' style={customPaddingStyle}>
                 <h2 className='text-white'>
                     Are you ready<br />
